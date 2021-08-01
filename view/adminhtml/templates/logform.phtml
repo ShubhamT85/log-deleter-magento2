@@ -1,0 +1,11 @@
+<form action="<?php echo $block->getUrl('log/deletelog/getvalues'); ?>" name="customlogdata" method="get" id="contactForm-1" data-hasrequired="<?php echo __('* Required Fields') ?>" data-mage-init='{"validation":{}}'>
+    <fieldset class="fieldset">
+        <label class="label" for="log_name"><span><?php echo __('Please enter keyword of log files to be deleted : ') ?></span></label>
+        &nbsp;&nbsp;&nbsp;
+        <input name="log_name" id="log_name" title="<?php echo __('Name') ?>" class="input-text" type="text" data-validate="{required:true}"/>
+        &nbsp;&nbsp;&nbsp;
+        <button type="submit" title="<?php echo __('Submit') ?>" class="action submit primary">
+            <span><?php echo __('Submit') ?></span>
+        </button>
+    </fieldset>
+</form>

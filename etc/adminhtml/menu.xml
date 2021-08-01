@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Task_DeleteLog::view" title="Delete Logs" module="Task_DeleteLog" sortOrder="10" action="log/deletelog/index" resource="Task_DeleteLog::view"/>
+    </menu>
+</config>
